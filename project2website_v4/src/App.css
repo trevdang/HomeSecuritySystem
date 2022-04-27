@@ -1,0 +1,173 @@
+#h2text {
+  font-family: 'Myriad Pro Semibold';
+}
+
+.App {
+  /* color: #7ad7f0; */
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.AboutPage {
+  margin: auto;
+  height: 850px;
+  width: 1000px;
+}
+
+.AboutPageSubDiv {
+  margin: auto;
+  background: #404040;
+  height: 750px;
+  width: 1000px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.footer {
+  /* position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0; */
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footerButtons {
+  /* border: 3px solid green; */
+  height: 50px;
+  width: 50px;
+}
+
+.linkDiv {
+  /* border: 3px solid green; */
+  width: 50px;
+  height: 50px;
+  padding: 50px;
+}
+
+.HomeButtonsRecIcon {
+  height:100px;
+  width:150px;
+}
+
+.HomeButtons {
+  height: 100px;
+  width: 100px;
+}
+
+.HomePageRedirectDiv {
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 3px solid green; */
+  width: 800px;
+  height: 400px;
+  margin: auto;
+}
+
+.HomePageRedirect {
+  font-family: 'Myriad Pro Semibold';
+  background: #37474f;
+  margin: auto;
+  width: 150px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.HomePara {
+  /* font-family: 'Myriad Pro Semibold'; */
+  color: #424242;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  /* border: 3px solid green; */
+}
+
+.overview {
+  margin: auto;
+  width: 800px;
+  text-align: left;
+  /* border: 3px solid green; */
+  padding-bottom: 20px;
+}
+
+.cameraViewDiv {
+  margin: auto;
+  width: 600px;
+  padding-bottom: 30px;
+}
+
+.cameraButtons {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.DataDiv {
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.SignInDiv {
+  height: 550px;
+}
+
+#drawdiv {
+  border: 3px solid green;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.sectionContainer{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.body{
+  background: #dee4e7;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
