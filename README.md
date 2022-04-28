@@ -6,3 +6,15 @@ Example Images of how the website interacts with the back-end server:
 
 - Home Page:
 ![](homepage.png)
+
+- About Page:
+![](aboutpage.png)
+
+- Camera Page:
+![](camerapage.png)
+
+- Sign In Page:
+![](signinpage.png)
+
+- Notification Email:
+![](notification.png)
